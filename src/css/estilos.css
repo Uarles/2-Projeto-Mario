@@ -71,6 +71,22 @@ body {
     transform: scale(1.1)
 }
 
+
+.botao {
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid #fff;
+    padding: 6px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+nav a {
+    color: #ffffff;
+}
+
+
 .fundo-video {
     background-color: red;
     position: absolute;
@@ -142,6 +158,7 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
 
 
 
