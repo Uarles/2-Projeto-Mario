@@ -71,6 +71,13 @@ body {
     transform: scale(1.1)
 }
 
+.artigo {
+    color: #ffffff;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
 
 .botao {
     font-size: 20px;
@@ -80,6 +87,22 @@ body {
     width: 200px;
     height: 50px;
     
+}
+
+.botao {
+    animation: vibrar 0.5s ease-in-out infinite both;
+    color: rgb(253, 253, 251);
+}
+@keyframes vibrar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 nav a {
