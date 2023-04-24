@@ -183,9 +183,105 @@ nav a {
 }
 
 
+       /* parte do codigo da tela dos filmes  */
 
 
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    display: flex;
+}
+      
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+      
+#btnBusca{
+    font-size: 20px;
+    width: 77px;
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    widtfont-weight:bold;
+    background:#5F9EA0;
+    cursor: pointer;
 
+}
+      
+#divBusca img{
+    background-color:#E0EEEE;
+    float:left;
+    height: 25px;
+    width: 25px;
 
+}
 
+div nav {
+    display: flex;
+}
 
+.barra {
+    display: flex;
+    padding-left: 480%;
+    gap: .9rem;
+    border: 6px;
+}
+
+.barra a {
+    color: #fff;
+    font-size: 30px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.barra a:hover {
+    background-color: #d5011d;
+}
+
+.tudo {
+    background-color: black;
+    height: 120vh;
+    
+}
+
+.barra {
+    height: 50px;
+}
+
+.imagens-filmes {
+    cursor: pointer;
+}
+
+.filme {
+    margin: 30px;
+    height: 200px;
+    width: 450px;
+}
+
+.fotos-filme {
+    margin: 30px;
+    height: 200px;
+    width: 450px;
+}
+
+.img {
+    margin: 30px;
+    height: 200px;
+    width: 450px;
+}
+
+.fot {
+    margin: 30px;
+    height: 200px;
+    width: 450px;
+}
